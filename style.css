@@ -596,6 +596,48 @@ footer {
     section {
         padding: 60px 0;
     }
+    /* Add to your existing style.css */
+
+.contact-map {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-map h3 {
+    margin-bottom: 25px;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.contact-map iframe {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero {
+    /* Existing styles */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .container {
+    text-align: center;
+    max-width: 800px; /* Adjust as needed */
+}
+
+/* Adjustments for the product card pricing text */
+.product-card .price {
+    font-size: 1.1rem; /* Slightly smaller if "In-Store" */
+    color: #666; /* Less aggressive color if it's not a direct price */
+    font-weight: 500;
+}
+
+/* Ensure testimonials are centered if fewer than 3 */
+.testimonial-grid {
+    justify-content: center; /* Centers items if there are fewer than the grid allows */
+}
 }
 
 @media (max-width: 480px) {
